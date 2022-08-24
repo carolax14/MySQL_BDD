@@ -1,0 +1,21 @@
+NOUVELLES ENTITES ET ASSOCIATIONS : 
+
+- Entité Scenariste & association scenariser : 
+   L'entité' "scenariste" est relier par une association "scenariser" à l'entité' "comics".
+   Un scenarisateur peut avoir scenariser 1 à plusieurs comics.
+   Un comics peut être scenariser par 1 à plusieurs scenaristes.
+ 
+
+ - Association contenir : 
+   L'entité' "series" est relier par l'association "contenier".
+   Une serie peut contenir 1 à plusieurs comics.
+   Un comics peut être contenue ou pas dans une série.
+
+
+MODIFICATION DES ENTITES, ASSOCIATIONS ET DES CARDINALITES :
+   
+- L'association recevoir : 
+   L'association "recevoir" contient l'attribut' "anneObtenue".
+   et a une cardinalité élevé à N avec les tables "comic" et "recompense".
+   Un comic peut recevoir aucune à plusieurs récompenses à une année précise.
+   Une récompense peut ëtre obtenue par un ou plusieurs comics à une année précise.
